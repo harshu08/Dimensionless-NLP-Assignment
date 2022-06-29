@@ -1,0 +1,87 @@
+{
+ "task_1_output": "Hello. Hi, nancy. This is mike from AT and T incorporation Yes. How can I help you nancy? You have been using our prepaid connection for a couple of years now. Right. Yeah. That's right. How would you like a postpaid connection that allows you to make free, unlimited voice calls to three AT&T. Numbers? I would love that. But what's the catch? There's no catch. There will be a monthly rental which you will have to pay like any other postpaid connection. Fantastic. Sign me up.",
+ "task_3_output": [
+ {
+ "sentence": "Hello. Hi, nancy..",
+ "intent": "greet",
+ "entities": [
+ {
+ "entity_name": "caller_name",
+ "entity_value": "nancy"
+ }
+ ]
+ },
+ {
+ "sentence": "This is Mike from AT and T incorporation.",
+ "intent": "intro",
+ "entities": [
+ {
+ "entity_name": "caller_name",
+ "entity_value": "Mike"
+ },
+ {
+ "entity_name": "company",
+ "entity_value": "AT and T"
+ }
+ ]
+ },
+ {
+ "sentence": "Yes. How can I help you",
+ "intent": "intro",
+ "entities": []
+ },
+ {
+ "sentence": "nancy, You have been using our prepaid connection for a couple of years now, Right",
+ "intent": "purpose",
+ "entities": [
+ {
+ "entity_name": "caller_name",
+ "entity_value": "nancy"
+ },
+ {
+ "entity_name": "product",
+ "entity_value": "prepaid"
+ }
+ ]
+ },
+ {
+ "sentence": "Yeah. That's right.",
+ "intent": "affirm",
+ "entities": []
+ },
+ {
+ "sentence": "How would you like a postpaid connection that allows you to make free, unlimited voice calls to three AT&T. Numbers?",
+ "intent": "hold",
+ "entities": [
+ {
+ "entity_name": "product",
+ "entity_value": "postpaid"
+ },
+ {
+ "entity_name": "company",
+ "entity_value": "AT and T"
+ }
+ ]
+ },
+ {
+ "sentence": "I would love that. But what's the catch?.",
+ "intent": "purpose",
+ "entities": []
+ },
+ {
+ "sentence": "There's no catch. There will be a monthly rental which you will have to pay like any other postpaid connection.",
+ "intent": "hold",
+ "entities": [
+ {
+ "entity_name": "product",
+ "entity_value": "postpaid"
+ }
+ ]
+ },
+{
+ "sentence": " Fantastic. Sign me up.",
+ "intent": "mood_great",
+ "entities": []
+ },
+ ]
+}

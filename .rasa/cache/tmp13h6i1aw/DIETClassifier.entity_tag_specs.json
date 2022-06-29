@@ -1,0 +1,36 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-caler_name",
+      "2": "I-caler_name",
+      "3": "L-caler_name",
+      "4": "U-caler_name",
+      "5": "B-caller_name",
+      "6": "I-caller_name",
+      "7": "L-caller_name",
+      "8": "U-caller_name",
+      "9": "B-company",
+      "10": "I-company",
+      "11": "L-company",
+      "12": "U-company",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-caler_name": 1,
+      "I-caler_name": 2,
+      "L-caler_name": 3,
+      "U-caler_name": 4,
+      "B-caller_name": 5,
+      "I-caller_name": 6,
+      "L-caller_name": 7,
+      "U-caller_name": 8,
+      "B-company": 9,
+      "I-company": 10,
+      "L-company": 11,
+      "U-company": 12,
+      "O": 0
+    },
+    "num_tags": 13
+  }
+]

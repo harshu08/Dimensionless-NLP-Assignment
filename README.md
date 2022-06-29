@@ -16,7 +16,7 @@ Next, a new rasa project is initialized. The changes have to made in th NLU pipe
 Training of the the model is done using shell command:
 rasa train nlu
 
-Once the training is done, uthe rasa project is run using the coomand:
+Once the training is done, uhe rasa project is run using the command:
 rasa shell nlu 
 
 Then you can type the respective sentences from Task 1 in the Anaconda command prompt. It identifies the intent and entity clearly in a JSON format.
